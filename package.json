@@ -1,0 +1,19 @@
+{
+	"private": true,
+	"workspaces": {
+		"packages": [
+			"ds",
+			"app"
+		]
+	},
+	"scripts": {
+		"ds": "yarn workspace @org/ds",
+		"app": "yarn workspace @org/app"
+	},
+	"devDependencies": {
+		"prettier": "^2.0.5"
+	},
+	"engines": {
+		"node": "12"
+	}
+}

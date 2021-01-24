@@ -1,0 +1,14 @@
+node_modules
+coverage
+dist
+build
+public/build
+
+.DS_Store
+.cache
+.yarn/cache
+.vercel
+.env
+
+*.log
+tsconfig.tsbuildinfo
