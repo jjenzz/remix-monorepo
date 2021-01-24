@@ -1,6 +1,7 @@
 {
 	"exclude": ["node_modules"],
 	"compilerOptions": {
+		"baseUrl": ".",
 		"jsx": "react-jsx",
 		"target": "es2019",
 		"esModuleInterop": true,

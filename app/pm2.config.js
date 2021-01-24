@@ -19,5 +19,14 @@ module.exports = {
 				NODE_ENV: 'development',
 			},
 		},
+		{
+			name: 'Design System',
+			cwd: '../ds',
+			script: "tsc -b",
+			watch: ['src'],
+			env: {
+				NODE_ENV: 'development',
+			},
+		},
 	],
 };
